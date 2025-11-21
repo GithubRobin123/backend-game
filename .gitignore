@@ -1,0 +1,59 @@
+# ------------------------------------------------------------------------------
+# Node.js & React Project .gitignore
+# ------------------------------------------------------------------------------
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ------------------------------------------------------------------------------
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+.temp/
+.tmp/
+
+# ------------------------------------------------------------------------------
+# Environment variables & local settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ------------------------------------------------------------------------------
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------------------------
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# ------------------------------------------------------------------------------
+# TypeScript
+*.tsbuildinfo
+
+# ------------------------------------------------------------------------------
+# Miscellaneous
+*.tgz
+*.zip
+*.bak
+*.old
+*.orig
+*.rej
